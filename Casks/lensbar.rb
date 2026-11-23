@@ -1,14 +1,14 @@
 cask "lensbar" do
-  version "0.2.0"
+  version "0.2.1"
 
   on_arm do
     url "https://github.com/andrew-craig/lensbar/releases/download/v#{version}/LensBar.dmg"
-    sha256 "2d72252b212b54c8c9ad1042402b9fdfd062f7ed92813a6511a0bfa34316402f"
+    sha256 "e27650124f5302c730134b03b87e77fc46c304c70566be7c86dc0909858832c7"
   end
 
   on_intel do
     url "https://github.com/andrew-craig/lensbar/releases/download/v#{version}/LensBar-universal.dmg"
-    sha256 "fb3b57a948bea67fc1fdfee70e3643c51ed729637c5e35043e8008e60d613b2f"
+    sha256 "3a3419c7634563540f91246b092665b8dada22a818cf88c6ac46e5afb0925fc1"
   end
 
   name "LensBar"
